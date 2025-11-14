@@ -1,0 +1,5 @@
+# Sembunyikan 'venv' (isinya ribuan file, gak boleh di-upload)
+venv/
+
+# Sembunyikan file rahasia (DATABASE_URL & SECRET_KEY)
+.env

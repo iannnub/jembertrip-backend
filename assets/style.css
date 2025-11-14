@@ -1,0 +1,32 @@
+/* assets/style.css */
+
+/* Efek fade-in untuk container utama */
+.fade-in {
+    animation: fadeIn 0.8s ease-in-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Styling untuk tombol kustom */
+.stButton>button {
+    border-radius: 10px;
+    background-color: #00BFA6;
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+    width: 100%; /* Tombol memenuhi lebar kartu */
+}
+.stButton>button:hover {
+    background-color: #009E88;
+    transform: scale(1.03);
+}
+
+/* Styling untuk tombol kembali */
+.stButton>button[kind="secondary"] {
+    background-color: #6c757d;
+}
+.stButton>button[kind="secondary"]:hover {
+    background-color: #5a6268;
+}
